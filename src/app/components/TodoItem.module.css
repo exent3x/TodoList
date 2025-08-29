@@ -1,0 +1,26 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+}
+
+.checkbox {
+    border-radius: 8px;
+    accent-color: rgba(224, 56, 120, 0.718);
+    width: 24px;
+    height: 24px;
+}
+
+.checkbox:hower {
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.text {
+    flex: 1;
+}
+
+.icon {
+    cursor: pointer;
+}
